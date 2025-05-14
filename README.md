@@ -9,7 +9,12 @@ This is a simple console-based chatbot designed to help users learn about cybers
 - Greets the user and starts a conversation.
 - Provides predefined responses to cybersecurity-related questions.
 - Simulates a typing effect for a more interactive experience.
+- Responds to emotional context (e.g., worried, frustrated).
+- Saves emotional and topical queries in a memory file.
+- Allows viewing of saved chat history.
+- Simulates a typing effect for a more interactive experience.
 - Allows users to exit the chat by typing "exit".
+
 
 ## Technologies Used
 - C# (.NET)
@@ -33,7 +38,9 @@ This is a simple console-based chatbot designed to help users learn about cybers
 1. Run the program.
 2. Enter your name when prompted.
 3. Start asking cybersecurity-related questions.
-4. Type "exit" to close the chat.
+4. Use emotional phrases like "I'm curious about malware" to log memory.
+5. Type "show history" to view saved emotional questions.
+6. Type "exit" to close the chat.
 
 ## Example Questions
 - "What is a strong password?"
